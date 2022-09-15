@@ -1,20 +1,51 @@
 import React from "react";
-import './profile.scss'
+import "./profile.scss";
 const Profile = () => {
-    return (
-        <div className='profile'>
-            <div className='bio-img'></div>
-            <div className='bio-text'>
-                <div className=" bio-text-image"></div>
-                <div className="bio-text-2">
-                    <h1>Profile</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit laoreet nunc at feugiat. Integer sed suscipit dolor, ac mollis magna. Morbi velit odio, ultrices eu turpis faucibus, faucibus sodales urna. Aliquam dapibus velit eu ultrices consectetur. Nulla ut laoreet ex. Donec blandit nec eros sollicitudin pulvinar. Aliquam cursus quam ut purus convallis pharetra a vel nisi. Aenean non maximus tortor. Quisque eget elit tellus. Aenean ac felis orci. Morbi varius id sapien et bibendum. In ac mauris eu enim finibus luctus. Etiam ac venenatis turpis, quis mollis ante. Nunc placerat tincidunt lectus vel tristique. Sed elementum luctus lacus nec maximus.</p>
-                    <p>Curabitur vestibulum diam condimentum, efficitur neque vitae, sollicitudin velit. Vivamus pellentesque turpis vel eleifend tristique. Integer quis tempor tortor, sit amet pharetra est. Nulla sagittis tortor non risus molestie, et vestibulum neque venenatis. Praesent porta in turpis ut eleifend. Aenean id diam enim. Curabitur porta ultrices lectus, sit amet maximus nulla convallis id. Ut laoreet lacus risus, ut luctus nisi feugiat quis.</p>
-                    <p> Phasellus pulvinar placerat leo, vel auctor elit scelerisque ut. Ut ante ex, commodo a mollis eu, hendrerit in odio. Integer ultrices volutpat ante. Proin hendrerit congue arcu id hendrerit. Morbi eget dui feugiat, fermentum odio sit amet, feugiat lectus. Sed scelerisque iaculis odio quis dictum. Donec tincidunt quis sapien a luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis rhoncus iaculis. Praesent in consequat metus. Etiam laoreet leo ut nunc viverra, at varius leo facilisis. Donec laoreet eu risus non auctor. Aliquam aliquet sagittis ultrices.</p>
-                </div>
-            </div>
+  return (
+    <div className="profile">
+      <div className="bio-img"></div>
+      <div className="bio-text">
+        <div className=" bio-text-image"></div>
+        <div className="bio-text-2">
+          <h1>Profile</h1>
+          <p>
+            My name is Lam, I am a Vietnamese developer who currently study and
+            work in Oulu, Finland. I came to Oulu in 2018, and then I spent 4
+            years studying Information Technology. My main profession is web
+            development; we also learned software design, databases, Iot,
+            Information Security. I just graduated and finished my Bachelor's
+            degree in June,2022 with GPA of 4.63.
+          </p>
+          <p>
+            My first job is an intership as a web developer at Smilee.io. I have
+            assigned to build and manage a retailing web application with
+            support from my CTO Jesse. We developed a e-commerce application for
+            selling used cars with Nextjs and RestAPI and firebase as the
+            backend side. My job at that time was to co-operate with the
+            customer team in designing, developing application function, working
+            on deployment and CI/CD with Docker and Google Cloud Services. The
+            application is demonstrated to customer and still in development
+            process. I have worked there 1 year and left at the end of 2022.
+          </p>
+          <p>
+            Then I worked at Nome Oy as thesis worker. I worked there as a
+            software developer in IoT field. My main tasks was to build an
+            application to manage sensor data, analysis and conducting report
+            based on analytic results. In this project, I had chances to learn
+            new things about IoT, MQTT and data storage. The project took over 2
+            months and I got my thesis approved by the university's supevisor.
+          </p>
+          <p>
+            Right now, as a graduated student, I am actively looking for a job
+            as a junior web developer across Finland or Europe and doing some
+            personal project at the same time. If you are interested in my
+            experience and skills through this porfolio, you can contact me for
+            work.
+          </p>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Profile
+export default Profile;
